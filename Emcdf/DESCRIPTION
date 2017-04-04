@@ -1,0 +1,14 @@
+Package: Emcdf
+Type: Package
+Title: Empirical joint distribution (empirical joint CDF)
+Version: 0.1.0
+Author: En-shuo Hsu
+Maintainer: En-shuo Hsu <daviden1013@gmail.com>
+Description: Computes empirical joint CDF of multivariate data with optimized algorithms and multi-thread.
+License: GPL-3
+LazyData: TRUE
+Imports:
+    Rcpp (>= 0.12.8), methods
+LinkingTo: Rcpp
+RoxygenNote: 5.0.1
+SystemRequirements: C++11
